@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+body{
+  background-image:url("bg.jpg") ;
+  background-size: contain;
+}
+.item{
+  position:relative;
+}
+.gameName {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color:indigo;
+  background: lavenderblush; 
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.cell-highlight {
+  background-color: rgb(252, 109, 109);
+  font-weight: bold;
+}
+
+.item p{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-110%);text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font:italic;
+  font-weight: bold;
+}
+table, th, td {
+  border: 1px solid black;
+  color: black;
+  
+}
+.infotextCardsNumnbers{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color:indigo;
+
+
+  
+
+}
+.buttonStyle {
+  background-color:rgb(0, 174, 255);
+
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration:navy;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.ballButtonStyle {
+  background-color:yellow;
+  border:maroon;
+  color:maroon;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration:navy;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.clearButtonStyle {
+  background-color:rebeccapurple;
+  border:maroon;
+  color:white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration:navy;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+input {
+  border: 2px solid purple;
+  border-radius: 4px;
+}
+.infotext {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color:rgb(35, 231, 117);
+  background: lavenderblush;
+
+  
+}

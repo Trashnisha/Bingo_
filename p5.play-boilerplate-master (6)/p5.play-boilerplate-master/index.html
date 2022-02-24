@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+<title>
+    BINGO
+</title>
+  </head>
+  <body>
+      <center>
+        <div class="gameName" height="50%" width="50px"> BINGO CARD GAME</div>
+    </center>  
+    <center>
+        <p id="pdrawBall" class="infotext"> How many Bingo cards?</p>
+        <input type="text" placeholder="Enter number of cards" id="txtInput">
+        <button onclick="draw()" id="btnDraw" class="buttonStyle">Draw card</button> 
+        <button id="btnDrawBall"onclick="drawBall()"  class="ballButtonStyle">Draw Ball</button> 
+        <button id="btnClear"onclick="clearCards()"  class="clearButtonStyle">CLEAR</button
+       
+    </center>
+    <center>
+     <p id="pCount" class="infotextCardsNumnbers"> NUMBER OF CARD/S:0  </p
+    </center>
+<br/>
+<center>
+    <div id="divBingoCard"></div>
+</center>
+
+      <script src="JS/sketch.js"></script>
+      <script src="JS/BallDraw.js"></script>
+      <script src="JS/BingoCard.js"></script>
+  
+
+</body>
+</html>
